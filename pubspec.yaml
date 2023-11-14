@@ -1,0 +1,51 @@
+name: palm_ai_demo
+description: This is a demo for Plam AI Demo with Flutter
+publish_to: 'none' 
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.1.5 <4.0.0'
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  firebase_core: ^2.22.0
+  cloud_firestore: ^4.13.0
+  flutter_bloc: ^8.1.3
+  blog: ^0.0.0
+  equatable: ^2.0.5
+  dartz: ^0.10.1
+  get_it: ^7.6.4
+  flutter_chat_ui: ^1.6.10
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+  mocktail: ^1.0.1
+  bloc_test: ^9.1.5
+  fake_cloud_firestore: ^2.4.3
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+ 
