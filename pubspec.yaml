@@ -1,5 +1,5 @@
 name: palm_ai_demo
-description: This is a demo for Plam AI Demo with Flutter
+description: A demo app to show how to use Firebase, Flutter, and the PaLM API
 publish_to: 'none' 
 
 version: 1.0.0+1
